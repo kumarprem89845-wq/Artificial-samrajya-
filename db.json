@@ -1,0 +1,546 @@
+{
+  "users": [
+    {
+      "id": "user-2",
+      "username": "pro_player",
+      "email": "pro@example.com",
+      "password": "db7d8a95a74934bae287df86c2b78bbc594d444f81ed7512647121280dfe0688",
+      "wallet_balance": 150,
+      "upi_id": "pro@okpaytm",
+      "is_blocked": false,
+      "custom_total_winnings": 500,
+      "custom_tournaments_won": 3,
+      "custom_rank": 3
+    },
+    {
+      "id": "user-1788571155177",
+      "username": "elite_sniper",
+      "email": "sniper@example.com",
+      "password": "efb861403cd3c08d66f0b4b8cf79cfbe7f9a0ce3e1d3a02e56a1195ba31b5e3a",
+      "wallet_balance": 0,
+      "upi_id": "",
+      "is_blocked": false,
+      "notification_settings": {
+        "match_start": true,
+        "tournament_results": true,
+        "room_credentials": true,
+        "schedule_updates": true,
+        "wallet_payouts": true,
+        "admin_announcements": true,
+        "push_enabled": true
+      },
+      "session_version": 1
+    },
+    {
+      "id": "user-1",
+      "username": "gamer99",
+      "email": "gamer99@artificialsamrajya.com",
+      "wallet_balance": 0,
+      "upi_id": "",
+      "is_blocked": false
+    }
+  ],
+  "admin": [
+    {
+      "id": "admin-1",
+      "username": "admin",
+      "password": "870b0d597cd8b3af8e77db413dcaccf58bad0d42d069fecca082d9df95c8195d",
+      "mobile": "7667265813",
+      "email": "admin@artificialsamrajya.com"
+    }
+  ],
+  "tournaments": [
+    {
+      "id": "t-1",
+      "title": "BGMI Mobile Battle Royale",
+      "game_name": "Battlegrounds Mobile India",
+      "tournament_type": "Squad",
+      "entry_fee": 50,
+      "prize_pool": 2000,
+      "max_players": 100,
+      "match_time": "2026-07-20T18:00",
+      "registration_start_time": "2026-07-10T10:00",
+      "registration_end_time": "2026-07-20T17:30",
+      "room_time": "2026-07-20T17:45",
+      "map_mode": "Erangel / TPP",
+      "rules": "1. Emulators are strictly prohibited.\n2. Hacks/teaming will result in immediate disqualification without refund.\n3. Room ID will be published 15 minutes before the match start time.",
+      "description": "Official Artificial Samrajya BGMI Championship. Compete with top squads across India for the mega cash prize.",
+      "banner_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
+      "commission_percentage": 20,
+      "status": "Upcoming",
+      "room_published": false,
+      "created_at": "2026-09-05T01:13:08.711Z"
+    },
+    {
+      "id": "t-2",
+      "title": "Free Fire Ultimate Clash Squad",
+      "game_name": "Garena Free Fire",
+      "tournament_type": "Solo",
+      "entry_fee": 30,
+      "prize_pool": 1200,
+      "max_players": 48,
+      "match_time": "2026-07-21T19:30",
+      "registration_start_time": "2026-07-10T10:00",
+      "registration_end_time": "2026-07-21T19:00",
+      "room_time": "2026-07-21T19:15",
+      "map_mode": "Bermuda / Solo Rush",
+      "rules": "No character skill abuse. Gun attributes will be set to default competitive mode.",
+      "description": "Solo Free Fire clash. Only pure gun skills and survival reflexes.",
+      "banner_url": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=800&q=80",
+      "commission_percentage": 15,
+      "status": "Upcoming",
+      "room_published": false,
+      "created_at": "2026-09-05T01:13:08.711Z"
+    },
+    {
+      "id": "t-3",
+      "title": "COD Mobile Championship",
+      "game_name": "Call of Duty Mobile",
+      "tournament_type": "Duo",
+      "entry_fee": 100,
+      "prize_pool": 5000,
+      "max_players": 50,
+      "match_time": "2026-07-18T10:00",
+      "map_mode": "Crash / Hardpoint",
+      "rules": "No class restrictions. Standard Call of Duty Mobile competitive settings.",
+      "description": "Tactical combat duel with certified room masters.",
+      "banner_url": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=800&q=80",
+      "commission_percentage": 20,
+      "status": "Live",
+      "room_id": "COD-ROOM-102",
+      "room_password": "codm-pass-999",
+      "room_published": true,
+      "created_at": "2026-09-05T01:13:08.711Z"
+    },
+    {
+      "id": "t-1793190766886",
+      "title": "Kamal Kumar",
+      "game_name": "Free fire India",
+      "tournament_type": "Solo",
+      "entry_fee": 50,
+      "prize_pool": 1000,
+      "max_players": 100,
+      "match_time": "2026-10-30T05:00",
+      "registration_start_time": "2026-10-28T18:02",
+      "registration_end_time": "2026-10-30T04:00",
+      "room_time": "2026-10-30T05:01",
+      "map_mode": "Erangel / TPP",
+      "rules": "1. Emulators & hacks are strictly forbidden.\n2. In-game name must match your registration ID.\n3. Room ID & Password will be released 15 minutes before the match start time.",
+      "description": "Official competitive tournament by Artificial Samrajya eSports. Play fair, survive to the end, and claim the cash prize!",
+      "banner_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
+      "commission_percentage": 20,
+      "status": "Upcoming",
+      "room_published": false,
+      "created_at": "2026-10-28T12:32:46.886Z"
+    }
+  ],
+  "participants": [
+    {
+      "id": "p-2",
+      "registration_id": "REG-CODM-82910",
+      "user_id": "user-2",
+      "tournament_id": "t-3",
+      "in_game_name": "ProPlayer_Viper",
+      "in_game_id": "68294991022",
+      "team_name": "Shadow Vipers",
+      "tournament_type": "Duo",
+      "status": "Confirmed",
+      "slot_number": 2,
+      "entry_fee_paid": 100,
+      "created_at": "2026-09-05T01:13:08.711Z"
+    }
+  ],
+  "matches": [
+    {
+      "id": "m-t3-1",
+      "tournament_id": "t-3",
+      "match_number": 1,
+      "title": "Match #1 - Crash Hardpoint",
+      "map_mode": "Crash",
+      "match_time": "2026-07-18T10:00",
+      "room_id": "COD-ROOM-102",
+      "room_password": "codm-pass-999",
+      "room_published": true,
+      "status": "Live",
+      "notes": "Top 4 advance to finals",
+      "created_at": "2026-09-05T01:13:08.711Z"
+    },
+    {
+      "id": "m-t-1793190766886-1",
+      "tournament_id": "t-1793190766886",
+      "match_number": 1,
+      "title": "Match #1",
+      "map_mode": "Erangel / TPP",
+      "match_time": "2026-10-30T05:00",
+      "room_published": false,
+      "status": "Upcoming",
+      "created_at": "2026-10-28T12:32:46.886Z"
+    }
+  ],
+  "scores": [],
+  "leaderboardSettings": {
+    "t-1793190766886": {
+      "tournament_id": "t-1793190766886",
+      "is_locked": false,
+      "is_published": false,
+      "last_updated": "2026-10-28T12:32:46.886Z"
+    }
+  },
+  "transactions": [
+    {
+      "id": "tx-2",
+      "user_id": "user-2",
+      "amount": 150,
+      "type": "credit",
+      "description": "Sign-up Promo Credit",
+      "created_at": "2026-09-05T01:13:08.711Z"
+    },
+    {
+      "id": "tx-1788571155178",
+      "user_id": "user-1788571155177",
+      "amount": 0,
+      "type": "credit",
+      "description": "Welcome! Registered to ARTIFICIAL SAMARAJYA eSPORTS",
+      "created_at": "2026-09-05T01:19:15.178Z"
+    }
+  ],
+  "deposits": [],
+  "withdrawals": [],
+  "notifications": [
+    {
+      "id": "notif-1793192811405-o3ca2",
+      "user_id": "user-2",
+      "title": "Admin replied to your support request 🔔",
+      "message": "Admin replied on Ticket #A69906 (Testing WhatsApp message delivery f...): \"Your withdrawal payout request has been processed successfully to your...\"",
+      "type": "support_reply",
+      "ticket_id": "tkt-1793179958988-69906",
+      "ticket_code": "#A69906",
+      "action_tab": "support",
+      "sender": "System",
+      "is_read": false,
+      "created_at": "2026-10-28T13:06:51.405Z"
+    },
+    {
+      "id": "notif-1793192797139-0w5qj",
+      "user_id": "user-2",
+      "title": "Admin replied to your support request 🔔",
+      "message": "Admin replied on Ticket #A69906 (Testing WhatsApp message delivery f...): \"Hlo\"",
+      "type": "support_reply",
+      "ticket_id": "tkt-1793179958988-69906",
+      "ticket_code": "#A69906",
+      "action_tab": "support",
+      "sender": "System",
+      "is_read": false,
+      "created_at": "2026-10-28T13:06:37.139Z"
+    },
+    {
+      "id": "notif-1793191051482-828bt",
+      "user_id": "user-1",
+      "title": "Support Request Submitted ✅",
+      "message": "Your support request has been submitted. Ticket ID: #A74500. Admin will review your request.",
+      "type": "support_ticket",
+      "ticket_id": "tkt-1793191051482-74500",
+      "ticket_code": "#A74500",
+      "action_tab": "support",
+      "sender": "System",
+      "is_read": false,
+      "created_at": "2026-10-28T12:37:31.482Z"
+    },
+    {
+      "id": "notif-1793190950346-n5oq5",
+      "user_id": "user-1788571155177",
+      "title": "Admin replied to your support request 🔔",
+      "message": "Admin replied on Ticket #A31871 (Hello Admin! Testing room ID query ...): \"Hello\"",
+      "type": "support_reply",
+      "ticket_id": "tkt-1793180209303-31871",
+      "ticket_code": "#A31871",
+      "action_tab": "support",
+      "sender": "System",
+      "is_read": false,
+      "created_at": "2026-10-28T12:35:50.346Z"
+    },
+    {
+      "id": "notif-1793180216455-uinw0",
+      "user_id": "user-1788571155177",
+      "title": "Admin replied to your support request 🔔",
+      "message": "Admin replied on Ticket #A31871 (Hello Admin! Testing room ID query ...): \"Hello elite_sniper, Room ID is 99887766 and Password is play\"",
+      "type": "support_reply",
+      "ticket_id": "tkt-1793180209303-31871",
+      "ticket_code": "#A31871",
+      "action_tab": "support",
+      "sender": "System",
+      "is_read": false,
+      "created_at": "2026-10-28T09:36:56.455Z"
+    },
+    {
+      "id": "notif-1793180209304-j7tjo",
+      "user_id": "user-1788571155177",
+      "title": "Support Request Submitted ✅",
+      "message": "Your support request has been submitted. Ticket ID: #A31871. Admin will review your request.",
+      "type": "support_ticket",
+      "ticket_id": "tkt-1793180209303-31871",
+      "ticket_code": "#A31871",
+      "action_tab": "support",
+      "sender": "System",
+      "is_read": false,
+      "created_at": "2026-10-28T09:36:49.304Z"
+    },
+    {
+      "id": "notif-1793179958989-7qm8u",
+      "user_id": "user-2",
+      "title": "Support Request Submitted ✅",
+      "message": "Your support request has been submitted. Ticket ID: #A69906. Admin will review your request.",
+      "type": "support_ticket",
+      "ticket_id": "tkt-1793179958988-69906",
+      "ticket_code": "#A69906",
+      "action_tab": "support",
+      "sender": "System",
+      "is_read": false,
+      "created_at": "2026-10-28T09:32:38.989Z"
+    },
+    {
+      "id": "notif-1793179215001-hgq14",
+      "user_id": "user-2",
+      "title": "Admin replied to your support request 🔔",
+      "message": "Admin replied on Ticket #A57265 (Hi Admin, need Room ID and Password...): \"Room ID: 8876543, Password: pass\"",
+      "type": "support_reply",
+      "ticket_id": "tkt-1793179202989-57265",
+      "ticket_code": "#A57265",
+      "action_tab": "support",
+      "sender": "System",
+      "is_read": false,
+      "created_at": "2026-10-28T09:20:15.001Z",
+      "reactions": {
+        "🔥": 1
+      }
+    },
+    {
+      "id": "notif-1793179202989-nf4ih",
+      "user_id": "user-2",
+      "title": "Support Request Submitted ✅",
+      "message": "Your support request has been submitted. Ticket ID: #A57265. Admin will review your request.",
+      "type": "support_ticket",
+      "ticket_id": "tkt-1793179202989-57265",
+      "ticket_code": "#A57265",
+      "action_tab": "support",
+      "sender": "System",
+      "is_read": false,
+      "created_at": "2026-10-28T09:20:02.989Z"
+    },
+    {
+      "id": "notif-1788571163400-jnkq1",
+      "user_id": "user-1788571155177",
+      "title": "🔐 Password Changed",
+      "message": "Your account password was successfully changed. If you did not make this change, contact the system administrator immediately.",
+      "type": "security_alert",
+      "amount": 0,
+      "sender": "System",
+      "is_read": false,
+      "created_at": "2026-09-05T01:19:23.400Z"
+    }
+  ],
+  "broadcastHistory": [
+    {
+      "id": "bc-init-1",
+      "title": "Welcome to ARTIFICIAL SAMARAJYA eSPORTS! 🎮",
+      "message": "Your battle registry is active. Check upcoming tournament schedules and stay alert for match room details.",
+      "type": "system",
+      "target": "all",
+      "target_name": "All Gamers",
+      "sender": "Admin",
+      "created_at": "2026-09-05T01:13:08.711Z",
+      "recipients_count": 2,
+      "recipient_user_ids": [
+        "user-1",
+        "user-2"
+      ]
+    }
+  ],
+  "tickets": [
+    {
+      "id": "tkt-1793180209303-31871",
+      "ticket_code": "#A31871",
+      "user_id": "user-1788571155177",
+      "username": "elite_sniper",
+      "user_email": "sniper@example.com",
+      "user_mobile": "Registered Gamer",
+      "subject": "Hello Admin! Testing room ID query ...",
+      "category": "Other",
+      "status": "Replied",
+      "priority": "Normal",
+      "messages": [
+        {
+          "id": "msg-1793180209303-ktgz",
+          "ticket_id": "tkt-1793180209303-31871",
+          "sender_type": "user",
+          "sender_id": "user-1788571155177",
+          "sender_name": "elite_sniper",
+          "message": "Hello Admin! Testing room ID query from elite_sniper",
+          "created_at": "2026-10-28T09:36:49.303Z"
+        },
+        {
+          "id": "msg-1793180216455-7k8a",
+          "ticket_id": "tkt-1793180209303-31871",
+          "sender_type": "admin",
+          "sender_id": "admin-1",
+          "sender_name": "Admin Support Team",
+          "message": "Hello elite_sniper, Room ID is 99887766 and Password is play",
+          "created_at": "2026-10-28T09:36:56.455Z"
+        },
+        {
+          "id": "msg-1793190950346-93xg",
+          "ticket_id": "tkt-1793180209303-31871",
+          "sender_type": "admin",
+          "sender_id": "admin_root",
+          "sender_name": "Admin Support Team",
+          "message": "Hello",
+          "created_at": "2026-10-28T12:35:50.346Z"
+        }
+      ],
+      "last_message": "Hello",
+      "last_reply_by": "admin",
+      "created_at": "2026-10-28T09:36:49.304Z",
+      "updated_at": "2026-10-28T12:35:50.346Z"
+    },
+    {
+      "id": "tkt-1793179958988-69906",
+      "ticket_code": "#A69906",
+      "user_id": "user-2",
+      "username": "pro_player",
+      "user_email": "pro@example.com",
+      "user_mobile": "pro@okpaytm",
+      "subject": "Testing WhatsApp message delivery f...",
+      "category": "Other",
+      "status": "In Progress",
+      "priority": "Normal",
+      "messages": [
+        {
+          "id": "msg-1793179958988-9aas",
+          "ticket_id": "tkt-1793179958988-69906",
+          "sender_type": "user",
+          "sender_id": "user-2",
+          "sender_name": "pro_player",
+          "message": "Testing WhatsApp message delivery from gamer",
+          "created_at": "2026-10-28T09:32:38.988Z"
+        },
+        {
+          "id": "msg-1793179965449-hagu",
+          "ticket_id": "tkt-1793179958988-69906",
+          "sender_type": "user",
+          "sender_id": "user-2",
+          "sender_name": "pro_player",
+          "message": "Second follow-up message from gamer",
+          "created_at": "2026-10-28T09:32:45.449Z"
+        },
+        {
+          "id": "msg-1793179981308-ovqz",
+          "ticket_id": "tkt-1793179958988-69906",
+          "sender_type": "user",
+          "sender_id": "user-2",
+          "sender_name": "pro_player",
+          "message": "Third message to non existent id",
+          "created_at": "2026-10-28T09:33:01.308Z"
+        },
+        {
+          "id": "msg-1793192797139-fjbk",
+          "ticket_id": "tkt-1793179958988-69906",
+          "sender_type": "admin",
+          "sender_id": "admin_root",
+          "sender_name": "Admin Support Team",
+          "message": "Hlo",
+          "created_at": "2026-10-28T13:06:37.139Z"
+        },
+        {
+          "id": "msg-1793192811405-lv1l",
+          "ticket_id": "tkt-1793179958988-69906",
+          "sender_type": "admin",
+          "sender_id": "admin_root",
+          "sender_name": "Admin Support Team",
+          "message": "Your withdrawal payout request has been processed successfully to your UPI ID. Please check your bank / UPI statement.",
+          "created_at": "2026-10-28T13:06:51.405Z"
+        }
+      ],
+      "last_message": "Your withdrawal payout request has been processed successfully to your UPI ID. Please check your bank / UPI statement.",
+      "last_reply_by": "admin",
+      "created_at": "2026-10-28T09:32:38.988Z",
+      "updated_at": "2026-10-28T13:07:23.381Z"
+    },
+    {
+      "id": "tkt-1793179202989-57265",
+      "ticket_code": "#A57265",
+      "user_id": "user-2",
+      "username": "pro_player",
+      "user_email": "pro@example.com",
+      "user_mobile": "pro@okpaytm",
+      "subject": "Hi Admin, need Room ID and Password...",
+      "category": "Other",
+      "status": "Replied",
+      "priority": "Normal",
+      "messages": [
+        {
+          "id": "msg-1793179202989-91c6",
+          "ticket_id": "tkt-1793179202989-57265",
+          "sender_type": "user",
+          "sender_id": "user-2",
+          "sender_name": "pro_player",
+          "message": "Hi Admin, need Room ID and Password for tournament!",
+          "created_at": "2026-10-28T09:20:02.989Z"
+        },
+        {
+          "id": "msg-1793179215001-dbvm",
+          "ticket_id": "tkt-1793179202989-57265",
+          "sender_type": "admin",
+          "sender_id": "admin-1",
+          "sender_name": "Admin Support",
+          "message": "Room ID: 8876543, Password: pass",
+          "created_at": "2026-10-28T09:20:15.001Z"
+        }
+      ],
+      "last_message": "Room ID: 8876543, Password: pass",
+      "last_reply_by": "admin",
+      "created_at": "2026-10-28T09:20:02.989Z",
+      "updated_at": "2026-10-28T09:20:15.001Z"
+    }
+  ],
+  "settings": {
+    "upi_id": "7544026117@upi",
+    "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=upi://pay?pa=7544026117@upi&pn=ARTIFICIAL%20SAMARAJYA%20eSPORTS&cu=INR",
+    "admin_mobile": "7667265813"
+  },
+  "passwordResetTokens": [
+    {
+      "id": "rst-1788571161020-zve6ss",
+      "role": "user",
+      "target_id": "user-1788571155177",
+      "target_identifier": "sniper@example.com",
+      "otp": "137057",
+      "created_at": 1788571161020,
+      "expires_at": 1788571761020,
+      "attempts": 0,
+      "used": true,
+      "contact_masked": "sn***r@example.com"
+    }
+  ],
+  "securityAuditLogs": [
+    {
+      "id": "sec-1788571163400-7b9u8",
+      "event": "GAMER_PASSWORD_RESET_SUCCESS",
+      "role": "user",
+      "target_identifier": "elite_sniper",
+      "success": true,
+      "message": "Gamer \"elite_sniper\" successfully changed password via verified OTP recovery.",
+      "timestamp": "2026-09-05T01:19:23.400Z",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "sec-1788571161021-p7tj1",
+      "event": "GAMER_PASSWORD_RESET_OTP_DISPATCHED",
+      "role": "user",
+      "target_identifier": "sniper@example.com",
+      "success": true,
+      "message": "Verification OTP dispatched to sn***r@example.com. Valid for 10 minutes.",
+      "timestamp": "2026-09-05T01:19:21.021Z",
+      "ip": "127.0.0.1"
+    }
+  ]
+}

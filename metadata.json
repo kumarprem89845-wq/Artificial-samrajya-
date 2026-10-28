@@ -1,0 +1,6 @@
+{
+  "name": "ARTIFICIAL SAMARAJYA eSPORTS",
+  "description": "A premium mobile-first eSports tournament platform where players can register, join tournaments, manage wallets with manual UPI, and win prizes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
